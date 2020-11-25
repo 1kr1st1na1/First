@@ -10,7 +10,7 @@ Original file is located at
 A=int(input())
 B=int(input())
 if (A>B):
-  for i in range(B,A+1):
+  for i in range(A,B-1,-1):
     print(i)
 elif (B>A):
     for i in range(A,B+1):
